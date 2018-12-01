@@ -16,11 +16,11 @@ html {
 }
 
 #logo {
-    height: 500px;
+    height: 800px;
     width: auto;
     position: relative;
-    top: 25%;
-    left: 40%;
+    top: 10%;
+    left: 34%;
     margin-top: -100px;
     margin-left: -100px;
 }
