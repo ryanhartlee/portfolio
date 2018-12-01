@@ -28,9 +28,11 @@ html {
     background-attachment: fixed;
     height: 450px;
 }
+
 h1 {
     padding-top: 10px;
 }
+
 #title {
     float: left;
     color: rgb(46, 46, 46);
