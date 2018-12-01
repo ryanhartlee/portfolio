@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
   }
 
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .para1 {
     background: url('images/1.jpeg') no-repeat center;
     background-size: cover;
@@ -9,6 +15,24 @@ html {
     height: 800px;
 }
 
+.para2 {
+    background: url('images/2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+.para3 {
+    background: url('images/3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+}
+
+#title {
+    float: left;
+    color: rgb(46, 46, 46);
+}
 
 .back {
     background-color: rgb(102, 102, 102);
