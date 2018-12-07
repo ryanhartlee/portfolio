@@ -53,6 +53,18 @@ h1 {
     margin-left: -100px;
 }
 
-.card-link {
+a {
     color: white;
 }
+
+a:link {
+    color: grey;
+  }
+  
+a:visited {
+    color: white;
+  }
+  
+a:hover {
+    color:grey;
+  }
