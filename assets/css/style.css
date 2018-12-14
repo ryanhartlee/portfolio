@@ -78,3 +78,38 @@ a:visited {
 a:hover {
     color:grey;
   }
+
+.navbar-brand {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 36px;
+}
+
+.nav-link {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-title {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.navbar {
+    line-height: .7;
+}
+
+#footer {
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+}
