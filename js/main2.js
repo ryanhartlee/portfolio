@@ -88,7 +88,7 @@
 		*/
 		this.cube = document.createElement('div');
 		this.cube.className = this.isActive ? 'cube' : 'cube cube--inactive';
-		this.cube.innerHTML = '<div class="cube__side cube__side--back"></div><div class="cube__side cube__side--left"></div><div class="cube__side cube__side--right"></div><div class="cube__side cube__side--bottom"></div><div class="cube__side cube__side--top"></div><div class="cube__side cube__side--front"><div class="cube__number">' + (this.number+1) + '</div></div>';
+		this.cube.innerHTML = '<div class="cube__side cube__side--back"></div><div class="cube__side cube__side--left"></div><div class="cube__side cube__side--right"></div><div class="cube__side cube__side--bottom"></div><div class="cube__side cube__side--top"></div><div class="cube__side cube__side--front"></div>';
 		this.currentTransform = {translateZ: 0, rotateX: 0, rotateY: 0};
 	};
 
@@ -437,7 +437,7 @@
 
 	Calendar.prototype._showPreviewTitle = function(text, number) {
 		this.dayPreview.innerHTML = text;
-		this.dayPreview.setAttribute('data-number', parseInt(number+1));
+		// this.dayPreview.setAttribute('data-number', parseInt(number+1));
 		
 		this.txtfx = new TextFx(this.dayPreview);
 		this.txtfx.hide();
@@ -679,7 +679,7 @@
 		contentEl = document.querySelector('.content'),
 		contents = contentEl.querySelectorAll('.content__block'),
 		backCtrl = contentEl.querySelector('.btn-back'),
-		contentNumber = contentEl.querySelector('.content__number'),
+		contentNumber = 'x',
 		isMobile = mobilecheck();
 
 	function init() {
