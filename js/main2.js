@@ -1,13 +1,3 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2016, Codrops
- * http://www.codrops.com
- */
 ;(function(window) {
 
 	'use strict';
@@ -36,7 +26,7 @@
 		if (!e) var e = window.event;
 		if (e.pageX || e.pageY) 	{
 			posx = e.pageX;
-			posy = e.pageY;
+			// posy = e.pageY;
 		}
 		else if (e.clientX || e.clientY) 	{
 			posx = e.clientX + document.body.scrollLeft
