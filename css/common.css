@@ -55,8 +55,8 @@ main {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	overflow-x: hidden;
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 600px;
 }
 
 .hidden {
@@ -476,9 +476,9 @@ main {
 	padding: 0 0 0 2vw;
 }
 
-.content__meta::before {
+/* .content__meta::before {
 	content: '\2014';
-}
+} */
 
 .content__number {
 	position: absolute;
@@ -526,10 +526,10 @@ main {
 
 @media screen and (max-width: 50.75em) {
 	.calendar {
-		padding: 3em calc((100vw - (7 * (14vw + 1vw)))/2);
+		padding: 0;
 	}
 	.js .calendar {
-		padding: 0 calc((100vw - (7 * (12vw + 1vw)))/2) 5em;
+		padding: 0;
 	}
 	.cube {
 		width: 12vw;

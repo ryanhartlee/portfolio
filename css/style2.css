@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Major Mono Display', monospace;
 }
 
 .cube__side,
@@ -12,37 +12,42 @@ body {
 
 .cube:not(.cube--inactive):nth-child(1) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(1) {
-	background-image: url(../img/1.png);
-	color: rgba(77, 77, 77, 0);
+	background-image: url(../assets/css/images/starwars.png);
+	background-size: 150%;
+	color: #252525;
 }
 
 .cube:not(.cube--inactive):nth-child(2) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(2) {
-	background-image: url(../img/2.png);
-	color: #d1d1d1;
+	background-image: url(../assets/css/images/randomnumber.png);
+	background-size: 150%;
+	color: #727272;
 }
 
 .cube:not(.cube--inactive):nth-child(3) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(3) {
-	background-image: url(../img/3.png);
+	background-image: url(../assets/css/images/psychicshibe.png);
+	background-size: 150%;
 	color: #b8b8b8;
 }
 
 .cube:not(.cube--inactive):nth-child(4) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(4) {
-	background-image: url(../img/4.png);
+	background-image: url(../assets/css/images/giphy.png);
+	background-size: 150%;
 	color: #464646;
 }
 
 .cube:not(.cube--inactive):nth-child(5) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(5) {
-	background-image: url(../img/5.png);
-	color: #e7e7e7;
+	background-image: url(../assets/css/images/employeedb.png);
+	background-size: 150%;
+	color: #808080;
 }
 
 .cube:not(.cube--inactive):nth-child(6) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(6) {
-	background-image: url(../img/6.png);
+	background-image: url(../assets/css/images/tbd.jpg);
 	color: #8d8d8d;
 }
 
@@ -144,7 +149,9 @@ body {
 
 .cube--inactive .cube__side,
 .no-js .cube--inactive {
-	background: #2e2e37;
+	background-image: url(../assets/css/images/tbd.jpg);
+	background-size: 50%;
+	background: #202020;
 }
 
 
@@ -200,5 +207,5 @@ body {
 	top: 50%;
 	-webkit-transform: translate3d(-50%, -50%, 0);
 	transform: translate3d(-50%, -50%, 0);
-	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+	font-family: 'Major Mono Display', monospace;
 }
