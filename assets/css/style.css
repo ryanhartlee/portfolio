@@ -9,10 +9,9 @@ html {
 }
 
 .para1 {
-    background: url('images/1.jpeg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    height: 756px;
 }
 
 .para2 {

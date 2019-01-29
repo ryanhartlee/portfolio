@@ -210,7 +210,7 @@ main {
 	margin: 0 auto;
 	overflow: hidden;
 	/* we always want 7 boxes in a row */
-	padding: 3em calc((100vw - (7 * (7vw + 1vw)))/2);
+	/* padding: 3em calc((100vw - (7 * (7vw + 1vw)))/2); */
 }
 
 .js .calendar {
