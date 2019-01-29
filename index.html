@@ -14,12 +14,13 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Titillium+Web" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
-    <link rel="stylesheet" type="text/css" href="css/common.css" />
-    <link rel="stylesheet" type="text/css" href="css/style2.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Titillium+Web" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -69,71 +70,107 @@
     <br>
     <div class="para2">
     </div>
-    <div id=projects></div>
-    <br>
-    <br>
-    <div class=container>
+    <div class="container" id="projects">
+        <br>
+        <br>
         <h1 id="title">#<h1>projects</h1>
         </h1>
-    </div>
-    <main>
-        <div class="calendar-wrap">
-            <div class="calendar">
-                <div class="cube" data-bg-color="#bcbcbc" data-title="Star Wars Trivia"></div>
-                <div class="cube" data-bg-color="#7c7c7c" data-title="random number Game"></div>
-                <div class="cube" data-bg-color="#3a3a3a" data-title="psychic Game"></div>
-                <div class="cube" data-bg-color="#bcbcbc" data-title="Giphy api search"></div>
-                <div class="cube" data-bg-color="#7c7c7c" data-title="employee database (firebase)"></div>
-                <div class="cube" data-inactive data-bg-color="#6161616" data-title="Coming soon"></div>
-                <div class="cube" data-inactive data-bg-color="#6161616" data-title="Coming soon"></div>
+        <br>
+        <div class="card-columns" id="projrow">
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/starwars.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">star Wars trivia</h4>
+                        <p class="card-text">Personal/class project revolving around jQuery's html element manipulation
+                            and
+                            timers. A basic quiz that calculates the amount of correct answers chosen by the user after
+                            user submission or when time runs out.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/TriviaGame" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/TriviaGame/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="content">
-                <div class="content__block">
-                    <h3 class="content__title">Star Wars Trivia</h3>
-                    <p class="content__description">personal/class project revolving around jQuery's html element
-                        manipulation and timers. A basic quiz that calculates the amount of correct answers chosen by
-                        the user after user submission or when time runs out.</p>
-                    <p class="content__meta"><a href="https://github.com/ryanhartlee/TriviaGame" target="_blank" class="card-link"><i
-                                class="fab fa-github-square fa-5x"></i></a>
-                        <a href="https://ryanhartlee.github.io/TriviaGame/" target="_blank" class="card-link"><i class="fab fa-chrome fa-5x"></i></a></p>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/randomnumber.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">random number Game</h4>
+                        <p class="card-text">Personal/class project revolving around random number generation, jQuery
+                            element manipulation, as well as Javascript functions.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/unit-4-game" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/unit-4-game/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
                 </div>
-                <div class="content__block">
-                    <h3 class="content__title">random number Game</h3>
-                    <p class="content__description">personal/class project revolving around random number generation,
-                        jQuery element manipulation, as well as Javascript functions.</p>
-                    <p class="content__meta"><a href="https://github.com/ryanhartlee/unit-4-game" target="_blank" class="card-link"><i class="fab fa-github-square fa-5x"></i></a>
-                        <a href="https://ryanhartlee.github.io/unit-4-game/" target="_blank" class="card-link"><i class="fab fa-chrome fa-5x"></i></a></p>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/psychicshibe.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">psychic Game</h4>
+                        <p class="card-text">Personal/class project incorporating events within Javascript. Script will
+                            generate random letter that the user will try to guess. If user runs out of guess, the
+                            score resets, and a new letter is randomly chosen as the target. </p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/Psychic-Game" target="_blank" class="card-link"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/Psychic-Game/" target="_blank" class="card-link"><i
+                                class="fab fa-chrome fa-2x"></i></a>
+                    </div>
                 </div>
-                <div class="content__block">
-                    <h3 class="content__title">psychic Game</h3>
-                    <p class="content__description">personal/class project incorporating events within Javascript. Script will generate random letter that the user will try to guess. If user runs out of guess, the score resets, and a new letter is randomly chosen as the target. </p>
-                    <p class="content__meta"><a href="https://github.com/ryanhartlee/Psychic-Game" target="_blank" class="card-link"><i
-                        class="fab fa-github-square fa-5x"></i></a>
-                <a href="https://ryanhartlee.github.io/Psychic-Game/" target="_blank" class="card-link"><i
-                        class="fab fa-chrome fa-5x"></i></a></p>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/giphy.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Giphy api search</h4>
+                        <p class="card-text">Webpage that access Giphy's API to pull the top 10 .gifs for a keyword.
+                            Default buttons are loaded with subjects, but users can create their own in the search bar.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/GiphyPull" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/GiphyPull/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
                 </div>
-                <div class="content__block">
-                    <h3 class="content__title">Giphy api search</h3>
-                    <p class="content__description">Webpage that access Giphy's api to pull the top 10 .gifs for a keyword.
-                            default buttons are loaded with subjects, but users can create their own in the search bar.</p>
-                    <p class="content__meta"><a href="https://github.com/ryanhartlee/GiphyPull" target="_blank" class="card-link"><i class="fab fa-github-square fa-5x"></i></a>
-                        <a href="https://ryanhartlee.github.io/GiphyPull/" target="_blank" class="card-link"><i class="fab fa-chrome fa-5x"></i></a></p>
-                </div>
-                <div class="content__block">
-                    <h3 class="content__title">employee database (firebase)</h3>
-                    <p class="content__description">App that lets the user add employees, and include information. stored
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/employeedb.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">employee database (firebase)</h4>
+                        <p class="card-text">App that lets the user add employees, and include information. Stored
                             within Google Firebase. App pulls information on load and displays it within the page using
                             Javascript. Time calculations may not work due to library updates. </p>
-                    <p class="content__meta"><a href="https://github.com/ryanhartlee/EmployeeDatabase" target="_blank" class="card-link"><i
-                        class="fab fa-github-square fa-5x"></i></a>
-                <a href="https://ryanhartlee.github.io/EmployeeDatabase/" target="_blank" class="card-link"><i
-                        class="fab fa-chrome fa-5x"></i></a></p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/EmployeeDatabase" target="_blank" class="card-link"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/EmployeeDatabase/" target="_blank" class="card-link"><i
+                                class="fab fa-chrome fa-2x"></i></a>
+                    </div>
                 </div>
-                <div class="content__number">0</div>
-                <button class="btn-back" aria-label="Back to the grid view">&crarr;</button>
-            </div><!-- /content -->
-        </div><!-- /calendar-wrap -->
-    </main>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/tbd.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">to be added</h4>
+                        <p class="card-text">Coming soon.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/TriviaGame" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/TriviaGame/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
     <br>
     <div class="para3">
     </div>
@@ -160,10 +197,7 @@
     <footer>
         <h1 id="footer">designed by ryan hartley</h1>
     </footer>
-    <script src="js/charming.min.js"></script>
-    <script src="js/anime.min.js"></script>
-    <script src="js/textfx.js"></script>
-    <script src="js/main2.js"></script>
+
 </body>
 
 </html>
