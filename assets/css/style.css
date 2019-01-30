@@ -43,14 +43,16 @@ h1 {
     color: white;
 }
 
+#lg {
+    width: 50%;
+    height: 80%;
+    margin-top: -5%;
+}
+
 #logo {
-    height: 800px;
-    width: auto;
-    position: relative;
-    top: 10%;
-    left: 34%;
-    margin-top: -100px;
-    margin-left: -100px;
+    height: 500px;
+    text-align: center;
+    vertical-align: center;
 }
 
 /* a {
