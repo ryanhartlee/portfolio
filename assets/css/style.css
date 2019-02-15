@@ -43,6 +43,71 @@ h1 {
     color: white;
 }
 
+/* Takiri */
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 16em;
+	line-height: 1;
+	color: #474747;
+	display: inline-block;
+}
+
+.link--takiri {
+	font-style: italic;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: 700;
+	font-size: 7em;
+	padding: 0 10px 20px;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.link--takiri:hover::before {
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+}
+
+.link--takiri span {
+	font-size: 35%;
+	font-weight: 400;
+	position: absolute;
+	right: 10px;
+	color: #ee1c1c;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translate3d(-20px,-20px,0);
+	transform: translate3d(-20px,-20px,0);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.link--takiri:hover span {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.grid__item {
+	height: 100%;	
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
+}
+
+/* .grid__item p {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #777;
+} */
 
 #logo {
     text-align: center;
@@ -69,7 +134,7 @@ a:link {
   }
 
 a:visited {
-    color: white;
+    color: grey;
   }
   
 a:hover {
@@ -103,6 +168,14 @@ h4 {
 
 .navbar {
     line-height: .7;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
 }
 
 #footer {
