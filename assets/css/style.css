@@ -183,3 +183,12 @@ h4 {
     text-align: center;
     height: 30px;
 }
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skillsinfo {
+    text-align: center;
+}

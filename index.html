@@ -8,223 +8,243 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Titillium+Web" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body class="back">
     <div class="para1" id="home">
-            <div class="grid__item logo">
-                    <a class="link link--takiri" href="#about">Ryan Hartley <span>Full Stack Developer</span></a>
+        <div class="grid__item logo">
+            <a class="link link--takiri" href="#about">Ryan Hartley <span>Full Stack Developer</span></a>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#home">Ryan Hartley</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home</a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#projects">projects</a>
+                <a class="nav-item nav-link" href="#contact">contact</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" target="_blank" href="https://github.com/ryanhartlee"><i class="fab fa-github fa-lg"></i></a>
+                <a class="nav-item nav-link" target="_blank" href="https://www.linkedin.com/in/ryanhartlee/"><i class="fab fa-linkedin fa-lg"></i></a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="about">
+        <br>
+        <br>
+        <h1 id="title">#<h1>About</h1>
+        </h1>
+        <div class='clearfix'>
+            <br>
+            <h4>
+                Passionate and goal-oriented software developer with years of business and IT industry experience
+                looking to build my skills on creative projects.
+            </h4>
+            <br>
+            <h1 id="title">#<h1>skills</h1>
+            </h1>
+            <br>
+            <div class="container">
+                <h4 id="skillsinfo">Hover over an icon to see additional information:</h4><br>
+                <div class="icons">
+                    <i class="fab fa-html5 fa-5x"></i>
+                    <i class="fab fa-css3-alt fa-5x" id='css' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="Bootstrap 4 <br> Materialize"></i>
+                    <i class="fab fa-js-square fa-5x" id='js' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="jQuery <br> AJAX <br> RESTful API's"></i>
+                    <i class="fab fa-node fa-5x" id='node' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="Express.js <br> Handlebars <br> Sequelize "></i>
+                    <i class="fas fa-database fa-5x" id='db' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="MySQL <br> MongoDB <br> Firebase"></i>
+                    <i class="fab fa-react fa-5x" id='react' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="Redux"></i>
+                    <i class="fab fa-git fa-5x" id='git' data-toggle="tooltip" data-html="true" data-placement="bottom"
+                        title="Github <br> Gitlab <br> Heroku"></i>
                 </div>
             </div>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#home">Ryan Hartley</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#home">Home</a>
-                        <a class="nav-item nav-link" href="#about">About</a>
-                        <a class="nav-item nav-link" href="#projects">projects</a>
-                        <a class="nav-item nav-link" href="#contact">contact</a>
-                    </div>
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" target="_blank" href="https://github.com/ryanhartlee"><i class="fab fa-github fa-lg"></i></a>
-                        <a class="nav-item nav-link" target="_blank" href="https://www.linkedin.com/in/ryanhartlee/"><i
-                                class="fab fa-linkedin fa-lg"></i></a>
+            <br>
 
-                    </div>
-                </div>
-        </nav>
-        <div class="container" id="about">
-            <br>
-            <br>
-            <h1 id="title">#<h1>About</h1>
-            </h1>
-            <h4 class="clearfix"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non porttitor purus.
-                Ut
-                cursus in velit ac eleifend. Donec elementum mattis orci, a ullamcorper tortor congue nec. Maecenas
-                accumsan, neque sit amet facilisis suscipit, tellus ex malesuada velit, ac tristique ligula mi sit amet
-                justo. Curabitur ut turpis in diam ultricies accumsan. In auctor, ipsum at euismod pharetra, nibh odio
-                ornare quam, lacinia commodo nisi ipsum sit amet nunc. Nam nunc tortor, dignissim vitae luctus nec,
-                egestas
-                vitae tellus. Sed varius, ex eu elementum tincidunt, metus nunc pellentesque elit, ac interdum arcu
-                eros
-                eget arcu. Vestibulum non vehicula ante. Fusce semper quam non sapien convallis mollis. Maecenas tortor
-                quam, dictum vitae sem vel, aliquam rhoncus purus. Curabitur at odio lacus. Curabitur lobortis, sapien
-                id
-                lacinia consectetur, lectus lorem eleifend eros, molestie efficitur erat lacus condimentum sem.
-            </h4>
         </div>
+    </div>
+    <br>
+    <div class="para2">
+    </div>
+    <div class="container" id="projects">
         <br>
-        <div class="para2">
-        </div>
-        <div class="container" id="projects">
-            <br>
-            <br>
-            <h1 id="title">#<h1>projects</h1>
-            </h1>
-            <br>
-            <div class="card-columns" id="projrow">
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/starwars.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">star Wars trivia</h4>
-                            <p class="card-text">Personal/class project revolving around jQuery's html element
-                                manipulation
-                                and
-                                timers. A basic quiz that calculates the amount of correct answers chosen by the user
-                                after
-                                user submission or when time runs out.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/TriviaGame" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://ryanhartlee.github.io/TriviaGame/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/randomnumber.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">random number Game</h4>
-                            <p class="card-text">Personal/class project revolving around random number generation,
-                                jQuery
-                                element manipulation, as well as Javascript functions.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/unit-4-game" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://ryanhartlee.github.io/unit-4-game/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/psychicshibe.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">psychic Game</h4>
-                            <p class="card-text">Personal/class project incorporating events within Javascript. Script
-                                will
-                                generate random letter that the user will try to guess. If user runs out of guess, the
-                                score resets, and a new letter is randomly chosen as the target. </p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/Psychic-Game" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://ryanhartlee.github.io/Psychic-Game/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/giphy.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Giphy api search</h4>
-                            <p class="card-text">Webpage that access Giphy's API to pull the top 10 .gifs for a
-                                keyword.
-                                Default buttons are loaded with subjects, but users can create their own in the search
-                                bar.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/GiphyPull" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://ryanhartlee.github.io/GiphyPull/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/employeedb.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">employee database (firebase)</h4>
-                            <p class="card-text">App that lets the user add employees, and include information. Stored
-                                within Google Firebase. App pulls information on load and displays it within the page
-                                using
-                                Javascript. Time calculations may not work due to library updates. </p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/EmployeeDatabase" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://ryanhartlee.github.io/EmployeeDatabase/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <img class="card-img-top" src="assets/css/images/friendfinder.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">friend finder</h4>
-                            <p class="card-text">App that lets the user complete a survey, and include a picture. Information is compared to an api stored on a route. Some functionality is still missing, such as the picture display on the result modal. Utilizes Node.js, Express.js, and deployed on Heroku. </p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://github.com/ryanhartlee/friendfinder" target="_blank" class="card-link"><i
-                                    class="fab fa-github-square fa-2x"></i></a>
-                            <a href="https://damp-taiga-43597.herokuapp.com/" target="_blank" class="card-link"><i
-                                    class="fab fa-chrome fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
+        <br>
+        <h1 id="title">#<h1>projects</h1>
+        </h1>
+        <br>
+        <div class="card-columns" id="projrow">
+            <div>
                 <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <img class="card-img-top" src="assets/css/images/friendfinder.png" alt="Card image cap">
+                    <img class="card-img-top" src="assets/css/images/starwars.png" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title">Event Finder</h4>
-                        <p class="card-text">Website made by my group in the University of Arizona Bootcamp. Pulls information from Ticket Master's API based on user search terms. Displays the cordinates of the events on a map utilizing Google's Map API.  </p>
+                        <h4 class="card-title">star Wars trivia</h4>
+                        <p class="card-text">Personal/class project revolving around jQuery's html element
+                            manipulation
+                            and
+                            timers. A basic quiz that calculates the amount of correct answers chosen by the user
+                            after
+                            user submission or when time runs out.</p>
                     </div>
                     <div class="card-body">
-                        <a href="https://github.com/ryanhartlee/EventFinder" target="_blank" class="card-link"><i
+                        <a href="https://github.com/ryanhartlee/TriviaGame" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/TriviaGame/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/randomnumber.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">random number Game</h4>
+                        <p class="card-text">Personal/class project revolving around random number generation,
+                            jQuery
+                            element manipulation, as well as Javascript functions.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/unit-4-game" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/unit-4-game/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/psychicshibe.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">psychic Game</h4>
+                        <p class="card-text">Personal/class project incorporating events within Javascript. Script
+                            will
+                            generate random letter that the user will try to guess. If user runs out of guess, the
+                            score resets, and a new letter is randomly chosen as the target. </p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/Psychic-Game" target="_blank" class="card-link"><i
                                 class="fab fa-github-square fa-2x"></i></a>
-                        <a href="https://ryanhartlee.github.io/EventFinder/" target="_blank" class="card-link"><i
+                        <a href="https://ryanhartlee.github.io/Psychic-Game/" target="_blank" class="card-link"><i
                                 class="fab fa-chrome fa-2x"></i></a>
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/giphy.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Giphy api search</h4>
+                        <p class="card-text">Webpage that access Giphy's API to pull the top 10 .gifs for a
+                            keyword.
+                            Default buttons are loaded with subjects, but users can create their own in the search
+                            bar.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/GiphyPull" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/GiphyPull/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
             </div>
-            <br>
-        </div>
-        <br>
-        <div class="para3">
-        </div>
-        <div class="container" id="contact">
-            <br>
-            <br>
-            <h1 id="title">#<h1>contact</h1>
-            </h1>
-            <br>
-            <h4>Want to work together? Contact me on any of these platforms:
-            </h4>
-            <br>
-            <div class="row">
-                <a class="nav-item nav-link" target="_blank" href="https://github.com/ryanhartlee"><i class="fab fa-github fa-3x"></i></a>
-                <a class="nav-item nav-link" target="_blank" href="https://www.linkedin.com/in/ryanhartlee/"><i class="fab fa-linkedin fa-3x"></i></a>
-                <a class="nav-item nav-link" target="_blank" href="https://stackoverflow.com/users/10113672/ryan-hartley?tab=profile"><i
-                        class="fab fa-stack-overflow fa-3x"></i></a>
-                <a class="nav-item nav-link" target="_blank" href="https://stackexchange.com/users/14002522/ryan-hartley"><i
-                        class="fab fa-stack-exchange fa-3x"></i></a>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/employeedb.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">employee database (firebase)</h4>
+                        <p class="card-text">App that lets the user add employees, and include information. Stored
+                            within Google Firebase. App pulls information on load and displays it within the page
+                            using
+                            Javascript. Time calculations may not work due to library updates. </p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/EmployeeDatabase" target="_blank" class="card-link"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://ryanhartlee.github.io/EmployeeDatabase/" target="_blank" class="card-link"><i
+                                class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top" src="assets/css/images/friendfinder.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">friend finder</h4>
+                        <p class="card-text">App that lets the user complete a survey, and include a picture.
+                            Information is compared to an api stored on a route. Some functionality is still missing,
+                            such as the picture display on the result modal. Utilizes Node.js, Express.js, and deployed
+                            on Heroku. </p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://github.com/ryanhartlee/friendfinder" target="_blank" class="card-link"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://damp-taiga-43597.herokuapp.com/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <img class="card-img-top" src="assets/css/images/friendfinder.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Event Finder</h4>
+                    <p class="card-text">Website made by my group in the University of Arizona Bootcamp. Pulls
+                        information from Ticket Master's API based on user search terms. Displays the cordinates of the
+                        events on a map utilizing Google's Map API. </p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/ryanhartlee/EventFinder" target="_blank" class="card-link"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a href="https://ryanhartlee.github.io/EventFinder/" target="_blank" class="card-link"><i class="fab fa-chrome fa-2x"></i></a>
+                </div>
             </div>
         </div>
+    </div>
+    <br>
+    </div>
+    <br>
+    <div class="para3">
+    </div>
+    <div class="container" id="contact">
         <br>
         <br>
-        <footer>
-            <h1 id="footer">designed by ryan hartley</h1>
-        </footer>
+        <h1 id="title">#<h1>contact</h1>
+        </h1>
+        <br>
+        <h4>Want to work together? Contact me on any of these platforms:
+        </h4>
+        <br>
+        <div class="row">
+            <a class="nav-item nav-link" target="_blank" href="https://github.com/ryanhartlee"><i class="fab fa-github fa-3x"></i></a>
+            <a class="nav-item nav-link" target="_blank" href="https://www.linkedin.com/in/ryanhartlee/"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a class="nav-item nav-link" target="_blank" href="https://stackoverflow.com/users/10113672/ryan-hartley?tab=profile"><i
+                    class="fab fa-stack-overflow fa-3x"></i></a>
+            <a class="nav-item nav-link" target="_blank" href="https://stackexchange.com/users/14002522/ryan-hartley"><i
+                    class="fab fa-stack-exchange fa-3x"></i></a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <h1 id="footer">designed by ryan hartley</h1>
+    </footer>
+
 
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="assets/javascript/javascript.js "></script>
 
 </html>
