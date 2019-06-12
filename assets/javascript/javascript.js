@@ -22,4 +22,8 @@ $('#git').hover(function (){
     $('#git').tooltip('show');
 });
 
+$('#design').hover(function (){
+    $('#design').tooltip('show');
+});
+
 //test
