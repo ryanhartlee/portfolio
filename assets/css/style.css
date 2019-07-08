@@ -90,7 +90,7 @@ h1 {
 }
 
 .grid__item {
-	height: 100%;	
+	height: 100%;
 	z-index: 1;
 	position: relative;
 	text-align: center;
@@ -136,7 +136,7 @@ a:link {
 a:visited {
     color: grey;
   }
-  
+
 a:hover {
     color:grey;
   }
@@ -196,4 +196,3 @@ h4 {
 #email {
     color: red;
 }
-
